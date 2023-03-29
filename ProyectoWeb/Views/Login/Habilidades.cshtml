@@ -1,0 +1,358 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Elearn</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Elearn project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="~/Content/stylesheet" type="text/css" href="~/Content/styles/bootstrap4/bootstrap.min.css">
+    <link href="~/Content/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="~/Content/stylesheet" type="text/css" href="~/Content/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="~/Content/stylesheet" type="text/css" href="~/Content/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="~/Content/stylesheet" type="text/css" href="~/Content/plugins/OwlCarousel2-2.2.1/animate.css">
+    <link href="~/Content/plugins/video-js/video-js.css" rel="stylesheet" type="text/css">
+    <link rel="~/Content/stylesheet" type="text/css" href="~/Content/styles/main_styles.css">
+    <link rel="~/Content/stylesheet" type="text/css" href="~/Content/styles/responsive.css">
+
+    @*<link href="~/Content/MyStyle.css" rel="stylesheet" />
+        <link href="~/Content/StyleLogin.css" rel="stylesheet" />*@
+    <style>
+        body {
+            font-family: sans-serif;
+            width: 100%;
+            text-transform: uppercase;
+            background-size: cover;
+            margin-top: 20px;
+        }
+
+        .login-form {
+            width: 35%;
+            margin: 0 auto;
+            background: url(/Content/images/video.jpg)no-repeat 0px 0px;
+            background-size: cover;
+            background-position: center;
+            padding: 30px 33px 67px;
+            border-top: 0px solid #00c3ff;
+            box-shadow: 0px 35px 44px -22px rgba(0, 0, 0, 0.72);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 26px;
+            color: #fff;
+        }
+
+        h5 {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 26px;
+            color: #fff;
+        }
+
+        form {
+            margin: 0 auto;
+        }
+
+            form p {
+                font-size: 15px;
+                margin-top: 44px;
+                padding: 0.3px;
+                color: #fff;
+            }
+
+        .login-form form input[type="text"], input[type="password"] {
+            outline: none;
+            font-size: 1em;
+            color: #fff;
+            padding: 15px 10px;
+            margin: 0 auto;
+            width: 95%;
+            border: none;
+            border-bottom: 1px solid #DCCDCF;
+            display: block;
+            background: transparent;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            outline: none;
+            display: block;
+            margin: 0 auto;
+            margin-top: 45px;
+            padding: 13px 20px;
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            background: #37819f;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.3s all;
+        }
+
+            input[type="submit"]:hover {
+                background: #0080b3;
+                transition: 0.3s all;
+            }
+
+        .login-form a {
+            display: block;
+            font-size: 15px;
+            color: #fff;
+            text-align: center;
+            margin-top: 31px;
+            transition: 0.3s all;
+        }
+
+            .login-form a:hover {
+                color: #00c3ff;
+                transition: 0.3s all;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="super_container">
+
+
+
+        <!-- Header -->
+        <header class="header">
+
+            <!-- Header Content -->
+            <div class="header_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                                <div class="logo_container">
+                                    <a href="#">
+                                        <div class="logo_content d-flex flex-row align-items-end justify-content-start">
+                                            <div class="logo_img"><img src="/Content/images/logo.png" width="250" height="65"></div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <nav class="main_nav_contaner ml-auto">
+                                    <ul class="main_nav" style="font-family: 'Montserrat', sans-serif;">
+                                        <li><a href="@Url.Action("index","Home")">Inicio</a></li>
+                                        <li><a href="@Url.Action("nosotros","Login")">Nosotros</a></li>
+                                        <li><a href="@Url.Action("programas","Login")">Programas</a></li>
+                                        <li><a href="@Url.Action("convenios","Login")" ">Convenios</a></li>
+                                        <li><a href="@Url.Action("contactanos","Login")">Contactanos</a></li>
+                                        <li><div class="text-end"><button onclick="ruta()" type="button" class="btn btn-warning ">Iniciar Sesión</button></div></li>
+                                    </ul>
+
+                                </nav>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="home">
+            <div class="container">
+                <div class="contenedor1">
+                    <img src="/Content/images/about.jpg" />
+                    <div class="centrado1 texto-encima1">Comprometidos con la excelencia</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="about">
+            <div class="container">
+                <div class="about_text"><h3>UNIDAD DE POSTGRADO DE LA UNIVERSIDAD NACIONAL FEDERICO VILLARREAL</h3></div>
+                <div class="about_text">
+                    <p>
+                        La Unidad de Posgrado de la Universidad Nacional Fererico Villarreal desde su creación,
+                        tiene el compromiso de formar profesionales de alto nivel, líderes íntegros y competentes
+                        en las áreas de salud, investigación, docencia, derecho, gestión pública, innovación y gerencia
+                        capaces de lograr cambios importantes en un entorno local e internacional.&nbsp;
+                    </p>
+                    <p>
+                        La Unidad de Posgrado de la Universidad Nacional Federico Villarreal ofrece Maestrías,
+                        Segundas Especialidades, Diplomados, Programas de Especialización,
+                        Cursos de Formación Continua y Programas de Formación Corporativa a medida,
+                        fortalecidos a través de las semanas internacionales, convenios con diversas universidades e
+                        instituciones prestigiosas al rededor del mundo.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about_text col-lg-3">
+                        <h3>VISIÓN DE LA EUPG</h3>
+                        <p>
+                            Ser una Escuela de Posgrado prestigiosa en sus programas de estudio a nivel de maestrías,
+                            certificados, acreditados y diferenciados, con reconocimiento a nivel nacional e internacional
+                            en investigación científica y tecnológica, formadora de líderes con capacidades emprendedoras
+                            para generar soluciones a los problemas mundiales
+                        </p>
+                    </div>
+                    <div class="about_text col-lg-3">
+                        <h3>MISIÓN DE LA EUPG</h3>
+
+                        <p>
+                            La Escuela de Posgrado de la Universidad Nacional Federico Villarrelal asume como misión social,
+                            en el ámbito educativo a nivel nacional e internacional, la formación y capacitación de líderes
+                            profesionales de alto nivel para desarrollar investigación, docencia, asesoría y gerencia, generando
+                            conocimiento y difundiéndolo en los campos de las ciencias modernas.
+                        </p>
+                    </div>
+                    <div class="about_text col-lg-3">
+                        <h3>VALORES DE LA EUPG</h3>
+                        <u1>
+                            <li>
+                                <strong>Compromiso</strong>
+                                <u1>
+                                    <p>Identificarse con los objetivos institucionales</p>
+                                </u1>
+                            </li>
+                        </u1>
+                        <u1>
+                            <li>
+                                <strong>Responsabilidad</strong>
+                                <u1>
+                                    <p>Asumir retos de la organización así como sus resultados</p>
+                                </u1>
+                            </li>
+                        </u1>
+                        <u1>
+                            <li>
+                                <strong>Integridad</strong>
+                                <u1>
+                                    <p>Ser coherentes con lo que se piensa, se dice y se hace</p>
+                                </u1>
+                            </li>
+                        </u1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <!-- About -->
+                    <div class="col-lg-3 footer_col">
+                        <div class="footer_about">
+                            <div class="logo_container">
+                                <a href="#">
+                                    <div class="logo_content d-flex flex-row align-items-end justify-content-start">
+                                        <div class="logo_img"><img src="images/logo.png" alt=""></div>
+                                        <div class="logo_text">learn</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="footer_about_text">
+                                <p>Maecenas rutrum viverra sapien sed fermentum. Morbi tempor odio eget lacus tempus pulvinar.</p>
+                            </div>
+                            <div class="footer_social">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 footer_col">
+                        <div class="footer_links">
+                            <div class="footer_title">Quick menu</div>
+                            <ul class="footer_list">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#">Facts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 footer_col">
+                        <div class="footer_links">
+                            <div class="footer_title">Useful Links</div>
+                            <ul class="footer_list">
+                                <li><a href="courses.html">Courses</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="#">Teachers</a></li>
+                                <li><a href="#">Links</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 footer_col">
+                        <div class="footer_contact">
+                            <div class="footer_title">Contáctanos</div>
+                            <div class="footer_contact_info">
+                                <div class="footer_contact_item">
+                                    <div class="footer_contact_title">Dirección:</div>
+                                    <div class="footer_contact_line">Jr. Prolongación Camaná N°1014 Lima</div>
+                                </div>
+                                <div class="footer_contact_item">
+                                    <div class="footer_contact_title">Phone:</div>
+                                    <div class="footer_contact_line">+53 345 7953 32453</div>
+                                </div>
+                                <div class="footer_contact_item">
+                                    <div class="footer_contact_title">Email:</div>
+                                    <div class="footer_contact_line">yourmail@gmail.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script>
+        function ruta() {
+            document.location.href = "/Login/sesion";
+
+        }
+
+    </script>
+
+    <script src="~/Content/js/jquery-3.2.1.min.js"></script>
+    <script src="~/Content/styles/bootstrap4/popper.js"></script>
+    <script src="~/Content/styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="~/Content/plugins/greensock/TweenMax.min.js"></script>
+    <script src="~/Content/plugins/greensock/TimelineMax.min.js"></script>
+    <script src="~/Content/plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="~/Content/plugins/greensock/animation.gsap.min.js"></script>
+    <script src="~/Content/plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="~/Content/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="~/Content/plugins/easing/easing.js"></script>
+    <script src="~/Content/plugins/video-js/video.min.js"></script>
+    <script src="~/Content/plugins/video-js/Youtube.min.js"></script>
+    <script src="~/Content/plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="~/Content/js/custom.js"></script>
+</body>
+</html>

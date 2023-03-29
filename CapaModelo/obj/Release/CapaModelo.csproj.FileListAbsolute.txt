@@ -1,0 +1,6 @@
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaModelo\bin\Release\CapaModelo.dll
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaModelo\bin\Release\CapaModelo.pdb
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaModelo\obj\Release\CapaModelo.csproj.AssemblyReference.cache
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaModelo\obj\Release\CapaModelo.csproj.CoreCompileInputs.cache
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaModelo\obj\Release\CapaModelo.dll
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaModelo\obj\Release\CapaModelo.pdb

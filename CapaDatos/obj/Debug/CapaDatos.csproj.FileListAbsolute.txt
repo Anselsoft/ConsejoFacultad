@@ -1,0 +1,36 @@
+D:\WorkSpaceAD\YOUTUBE\018_FUNCIONALIDAD SISTEMA COLEGIO WEB\ProyectoWeb\CapaDatos\bin\Debug\CapaDatos.dll
+D:\WorkSpaceAD\YOUTUBE\018_FUNCIONALIDAD SISTEMA COLEGIO WEB\ProyectoWeb\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\WorkSpaceAD\YOUTUBE\018_FUNCIONALIDAD SISTEMA COLEGIO WEB\ProyectoWeb\CapaDatos\bin\Debug\CapaModelo.dll
+D:\WorkSpaceAD\YOUTUBE\018_FUNCIONALIDAD SISTEMA COLEGIO WEB\ProyectoWeb\CapaDatos\bin\Debug\CapaModelo.pdb
+D:\WorkSpaceAD\YOUTUBE\018_FUNCIONALIDAD SISTEMA COLEGIO WEB\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+D:\WorkSpaceAD\YOUTUBE\018_FUNCIONALIDAD SISTEMA COLEGIO WEB\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+D:\WorkSpaceAD\YOUTUBE\018_FUNCIONALIDAD SISTEMA COLEGIO WEB\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+D:\WorkSpaceAD\YOUTUBE\018_FUNCIONALIDAD SISTEMA COLEGIO WEB\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.dll
+D:\WorkSpaceAD\YOUTUBE\018_FUNCIONALIDAD SISTEMA COLEGIO WEB\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Anselmo\Desktop\colegio\ProyectoWeb\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Anselmo\Desktop\colegio\ProyectoWeb\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Anselmo\Desktop\colegio\ProyectoWeb\CapaDatos\bin\Debug\CapaModelo.dll
+C:\Users\Anselmo\Desktop\colegio\ProyectoWeb\CapaDatos\bin\Debug\CapaModelo.pdb
+C:\Users\Anselmo\Desktop\colegio\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Anselmo\Desktop\colegio\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Anselmo\Desktop\colegio\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\Anselmo\Desktop\colegio\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Anselmo\Desktop\colegio\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\Proyecto_Anselmo\10_11_2022\ProyectoWeb\CapaDatos\bin\Debug\CapaDatos.dll
+D:\Proyecto_Anselmo\10_11_2022\ProyectoWeb\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\Proyecto_Anselmo\10_11_2022\ProyectoWeb\CapaDatos\bin\Debug\CapaModelo.dll
+D:\Proyecto_Anselmo\10_11_2022\ProyectoWeb\CapaDatos\bin\Debug\CapaModelo.pdb
+D:\Proyecto_Anselmo\10_11_2022\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+D:\Proyecto_Anselmo\10_11_2022\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+D:\Proyecto_Anselmo\10_11_2022\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+D:\Proyecto_Anselmo\10_11_2022\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.dll
+D:\Proyecto_Anselmo\10_11_2022\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaDatos\bin\Debug\CapaModelo.dll
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaDatos\bin\Debug\CapaModelo.pdb
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Anselmo\Desktop\PRACTICAS PRE\ProyectoWeb\CapaDatos\obj\Debug\CapaDatos.pdb
